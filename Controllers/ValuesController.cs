@@ -21,7 +21,7 @@ namespace paymentapi.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return RedirectPermanent("http://localhost:4200");
         }
 
         // POST api/values
